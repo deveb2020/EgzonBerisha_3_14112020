@@ -1,0 +1,311 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+/******************** LOGO *******************/
+/******************** LOGO *******************/
+/******************** LOGO *******************/
+
+.logo
+{
+    width: 100%;
+    text-align: center;
+    padding: 0.5rem 0;
+}
+
+.logo img
+{
+    width: 10rem;
+}
+
+/******************** HEADER *******************/
+/******************** HEADER *******************/
+/******************** HEADER *******************/
+
+
+.header-box
+{
+    width: 100%;
+}
+
+.location
+{
+    width: 100%;
+    padding: 0.6rem 0;
+    background-color: #e6e4e1;
+    text-align: center;
+    color: #3c3d3b;
+}
+
+
+.location-wrapper i
+{
+    margin-right: 0.3rem;
+}
+
+
+
+.text-and-button
+{
+    width: 100%;
+    text-align: center;
+}
+
+
+.text-and-button
+{
+    width: 100%;
+    text-align: center;
+    background-color: #f5f5f0;
+    padding-top: 0.1rem;
+    padding-bottom: 2.0rem;
+}
+
+
+.text-wrapper
+{
+    width: 75%;
+    margin: 0 auto;
+}
+
+
+.text-wrapper b
+{
+    font-size: 1.5rem;
+}
+
+
+.text-wrapper .parapraphe-color
+{
+    font-size: 1rem;
+    color: #3d3d29;
+}
+
+
+.text-and-button button
+{
+    padding: 1rem;
+    border-radius: 30px 30px 30px 30px;
+    background: linear-gradient(#ff80b3, #ad33ff);
+    border: none;
+    color: white;
+    font-weight: 600;
+    box-shadow: 5px 5px 5px #d6d6c2;
+}
+
+
+
+/******************** FONCTIONNEMENT *******************/
+/******************** FONCTIONNEMENT *******************/
+/******************** FONCTIONNEMENT *******************/
+
+.fonctionnement-box
+{
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+
+
+.fonctionnement-box h2
+{
+    padding-left: 1.8rem;
+}
+
+
+
+.fonction
+{
+    border: 1px solid #f5f5f0;
+    padding: 1rem 0.5rem;
+    width: 80%;
+    margin: 1rem auto;
+    border-radius: 15px 15px 15px 15px;
+    background-color: #f5f5f0;
+    box-shadow: 5px 5px 5px #d6d6c2;
+}
+
+
+
+.fonction:hover
+{
+    color: 	#6b19e6;
+}
+
+
+
+.number
+{
+    border-radius: 50px;
+    border: 1px solid 	#6b19e6;
+    padding: 0px 5px;
+    position: absolute;
+    left: 5.2%;
+    color: white;
+    background-color: #6b19e6;
+}
+
+
+
+.fonction i
+{
+    padding: 0 1rem;
+}
+
+
+/******************** RESTAURANTS *******************/
+/******************** RESTAURANTS *******************/
+/******************** RESTAURANTS *******************/
+
+
+.resto-box
+{
+    width: 100%;
+    background-color: #f5f5f0;
+    padding: 2rem 0;
+}
+
+
+
+.resto
+{
+    width: 90%;
+    height: 15rem;
+    margin: 1rem auto;
+    border-radius: 25px 25px 25px 25px;
+    box-shadow: 5px 5px 5px #d6d6c2;
+}
+
+
+.carte-photo-1
+{
+    background-image: url(../Photos/1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 70%;
+    border-radius: 25px 25px 0px 0px;
+}
+
+
+
+.carte-photo-2
+{
+    background-image: url(../Photos/2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 70%;
+    border-radius: 25px 25px 0px 0px;
+}
+
+
+.carte-photo-3
+{
+    background-image: url(../Photos/3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 70%;
+    border-radius: 25px 25px 0px 0px;
+}
+
+
+
+.carte-photo-4
+{
+    background-image: url(../Photos/4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 70%;
+    border-radius: 25px 25px 0px 0px;
+}
+
+
+
+
+.carte-text
+{
+    display: flex;
+}
+
+
+
+.text-left
+{
+    width: 70%;
+}
+
+
+
+.heart-icon
+{
+    width: 30%;
+}
+
+
+.heart-icon i
+{
+    font-size: 2rem;
+    margin: 1rem;
+    padding-left: 1rem;
+    font-weight: 100;
+}
+
+
+
+
+.text-left h3 
+{
+    margin: 0;
+    padding-top: 0.3rem;
+    padding-left: 0.5rem;
+}
+
+
+.text-left p
+{
+    margin: 0;
+    padding-top: 0.2rem;
+    padding-left: 0.5rem;
+}
+
+
+
+
+/******************** FOOTER *******************/
+/******************** FOOTER *******************/
+/******************** FOOTER *******************/
+
+
+.footer
+{
+    width: 100%;
+    background-color: #0d0d0d;
+    color: white;
+    height: 22vh
+}
+
+
+.footer-logo
+{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-weight: 600;
+}
+
+
+.footer-logo, .footer-icon-1, .footer-icon-2, p
+{
+    margin: 0.5rem 1rem;
+}
+
+
