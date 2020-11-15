@@ -1,0 +1,175 @@
+body
+{
+    padding: 0;
+    margin: 0;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+
+/******************** LOGO *******************/
+/******************** LOGO *******************/
+/******************** LOGO *******************/
+
+
+
+.logo
+{
+    width: 100%;
+    padding: 0.6rem 0;
+    text-align: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.button-retour i
+{
+    position: absolute;
+    left: 5%;
+    margin: 0.5rem auto;
+}
+
+
+.logo i
+{
+    font-size: 1.3rem;
+}
+
+
+.logo-photo img
+{
+    width: 12rem;
+}
+
+
+
+
+/******************** Photo *******************/
+/******************** Photo *******************/
+/******************** Photo *******************/
+
+
+.bk-photo img
+{
+    width: 100%;
+}
+
+.header-txt
+{
+    display: flex;
+    justify-content: center;
+    height: 2rem;
+}
+
+.header-txt h2 
+{
+    margin: 0;
+    padding-right: 2rem;
+}
+
+.header-txt i
+{
+    margin: 0;
+    font-size: 1.7rem;
+    font-weight: 300;
+}
+
+
+/******************** entées *******************/
+
+.menu-box
+{
+    width: 100%;
+    position: absolute;
+    top: 36%;
+    background-color: 	rgb(242, 242, 242);
+    border-radius: 40px 40px 0px 0px;
+}
+
+
+
+
+.entrees
+{
+    border-bottom: 2px solid #99E2D0;
+    width: 8%;
+    padding-bottom: 0.5rem;
+    margin-left: 0.8rem;
+    margin-top: 2rem;
+}
+
+
+.plats
+{
+    width: 95%;
+    background-color: aqua;
+    margin: auto;
+    display: flex;
+    margin: 1rem auto;
+    border-radius: 12px;
+}
+
+
+.header-txt
+{
+    margin-top: 2rem;
+}
+
+
+.text-wrapper
+{
+    width: 85%;
+}
+
+
+.prix h3
+{
+    margin: 0 auto;
+    padding-top: 3.6rem;
+    width: 15%;
+}
+
+
+
+
+/******************** FOOTER *******************/
+/******************** FOOTER *******************/
+/******************** FOOTER *******************/
+
+
+.footer
+{
+    width: 100%;
+    background-color: #414242
+        ;
+    color: white;
+    padding: 1rem 0;
+}
+
+
+.footer-logo
+{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-weight: 300;
+    font-family: 'Shrikhand', cursive;
+
+}
+
+
+.footer-logo, .footer-icon-1, .footer-icon-2, p
+{
+    margin: 0.5rem 1rem;
+}
+
+
+
+
+
+

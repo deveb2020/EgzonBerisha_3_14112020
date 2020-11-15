@@ -1,3 +1,10 @@
+/******************** GLOBAL *******************/
+/******************** GLOBAL *******************/
+/******************** GLOBAL *******************/
+
+
+
+
 body
 {
     margin: 0;
@@ -5,16 +12,27 @@ body
     
 }
 
+
+
 h1, h2, h3, h4
 {
     font-family: 'Roboto', sans-serif;
 }
 
+
+
 p, span
 {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
+}
 
+
+
+a
+{
+    text-decoration: none;
+    color: black;
 }
 
 
@@ -22,6 +40,8 @@ p, span
 /******************** LOGO *******************/
 /******************** LOGO *******************/
 /******************** LOGO *******************/
+
+
 
 .logo
 {
@@ -30,10 +50,12 @@ p, span
     padding: 0.5rem 0;
 }
 
+
 .logo img
 {
     width: 10rem;
 }
+
 
 /******************** HEADER *******************/
 /******************** HEADER *******************/
@@ -117,11 +139,14 @@ p, span
 /******************** FONCTIONNEMENT *******************/
 /******************** FONCTIONNEMENT *******************/
 
+
+
 .fonctionnement-box
 {
     width: 100%;
     margin-bottom: 2rem;
 }
+
 
 
 
@@ -365,5 +390,34 @@ p, span
 {
     margin: 0.5rem 1rem;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
