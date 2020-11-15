@@ -2,7 +2,21 @@ body
 {
     margin: 0;
     padding: 0;
+    
 }
+
+h1, h2, h3, h4
+{
+    font-family: 'Roboto', sans-serif;
+}
+
+p, span
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+
+}
+
 
 
 /******************** LOGO *******************/
@@ -35,9 +49,10 @@ body
 {
     width: 100%;
     padding: 0.6rem 0;
-    background-color: #e6e4e1;
+    background-color: rgba(217, 217, 217, 0.5);
     text-align: center;
     color: #3c3d3b;
+    border-top: 2px solid rgba(217, 217, 217, 0.8);
 }
 
 
@@ -59,7 +74,7 @@ body
 {
     width: 100%;
     text-align: center;
-    background-color: #f5f5f0;
+    background-color: rgba(245, 245, 240, 0.6);
     padding-top: 0.1rem;
     padding-bottom: 2.0rem;
 }
@@ -67,7 +82,7 @@ body
 
 .text-wrapper
 {
-    width: 75%;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -120,10 +135,10 @@ body
 .fonction
 {
     border: 1px solid #f5f5f0;
-    padding: 1rem 0.5rem;
+    padding: 1.4rem 0.5rem;
     width: 80%;
     margin: 1rem auto;
-    border-radius: 15px 15px 15px 15px;
+    border-radius: 20px 20px 20px 20px;
     background-color: #f5f5f0;
     box-shadow: 5px 5px 5px #d6d6c2;
 }
@@ -133,6 +148,7 @@ body
 .fonction:hover
 {
     color: 	#6b19e6;
+    background-color: 	rgba(230, 204, 255, 0.4);	
 }
 
 
@@ -164,7 +180,7 @@ body
 .resto-box
 {
     width: 100%;
-    background-color: #f5f5f0;
+    background-color: rgba(245, 245, 240, 0.6);
     padding: 2rem 0;
 }
 
@@ -255,9 +271,17 @@ body
 .heart-icon i
 {
     font-size: 2rem;
-    margin: 1rem;
-    padding-left: 1rem;
     font-weight: 100;
+    color: grey;
+    padding-left: 45%;
+    padding-top: 15%;
+}
+
+
+.heart-icon i:hover
+{
+    font-weight: 700;
+    color: rgba(153, 0, 153, 0.8);
 }
 
 
@@ -267,7 +291,7 @@ body
 {
     margin: 0;
     padding-top: 0.3rem;
-    padding-left: 0.5rem;
+    padding-left: 1rem;
 }
 
 
@@ -275,9 +299,40 @@ body
 {
     margin: 0;
     padding-top: 0.2rem;
-    padding-left: 0.5rem;
+    padding-left: 1rem;
 }
 
+
+.carte-photo-1, .carte-photo-2
+{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nouveau-box
+{
+    width: 20%;
+    height:20%;
+    background-color: #2dd2d2;
+    margin: 1rem;
+    color: #006666;
+    border-radius: 3px;
+    font-size: 70%;
+}
+
+.nouveau-box p
+{
+    text-align: center;
+    margin: 0;
+    padding: 0.7rem;
+    font-weight: 600;
+}
+
+
+.resto-box h2
+{
+    padding-left: 2rem;
+}
 
 
 
@@ -289,9 +344,10 @@ body
 .footer
 {
     width: 100%;
-    background-color: #0d0d0d;
+    background-color: #414242
+        ;
     color: white;
-    height: 22vh
+    padding: 1rem 0;
 }
 
 
@@ -299,7 +355,9 @@ body
 {
     padding-top: 1rem;
     padding-bottom: 1rem;
-    font-weight: 600;
+    font-weight: 300;
+    font-family: 'Shrikhand', cursive;
+
 }
 
 
