@@ -128,14 +128,28 @@ a
 }
 
 
-.prix h3
+.prix
 {
-    margin: 0 auto;
-    padding-top: 3.6rem;
     width: 15%;
+    display: flex;
+    margin: 0;
 }
 
+.prix i
+{
+    display: none;
+}
 
+.plats:hover .prix i
+{
+    display: block;
+    width: 5rem;
+    height: 100%;
+    background-color: red;
+    padding: auto 0;
+    display: flex;
+    justify-content: center;
+}
 
 
 /******************** FOOTER *******************/
@@ -146,8 +160,7 @@ a
 .footer
 {
     width: 100%;
-    background-color: #414242
-        ;
+    background-color: #414242;
     color: white;
     padding: 1rem 0;
 }
