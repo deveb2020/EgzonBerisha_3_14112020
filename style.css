@@ -268,7 +268,7 @@ a
 
 .carte-photo-1
 {
-    background-image: url(../Photos/1.jpg);
+    background-image: url(./Photos/1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -281,7 +281,7 @@ a
 
 .carte-photo-2
 {
-    background-image: url(../Photos/2.jpg);
+    background-image: url(./Photos/2.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -293,7 +293,7 @@ a
 
 .carte-photo-3
 {
-    background-image: url(../Photos/3.jpg);
+    background-image: url(./Photos/3.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -306,7 +306,7 @@ a
 
 .carte-photo-4
 {
-    background-image: url(../Photos/4.jpg);
+    background-image: url(./Photos/4.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
