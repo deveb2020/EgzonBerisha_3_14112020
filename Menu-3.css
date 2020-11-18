@@ -33,8 +33,6 @@ div.text-wrapper p
 
 
 
-
-
 body
 {
     padding: 0;
@@ -299,16 +297,24 @@ i:hover
     text-align: center;
 }
 
-.btn-box button
-
+.btn
 {
-    padding: 1rem 2rem;
+    padding: 1rem;
     border-radius: 30px 30px 30px 30px;
     background: linear-gradient(#ff80b3, #ad33ff);
     border: none;
     color: white;
     font-weight: 600;
     box-shadow: 5px 5px 5px #d6d6c2;
+    transform: scale(1);
+    transition-property: transform;
+    transition-duration: 1000ms;
+}
+
+.btn:hover
+{
+    transform: scale(1.15);
+    cursor: pointer;
 }
 
 
