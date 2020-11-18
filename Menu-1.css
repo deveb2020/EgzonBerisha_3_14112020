@@ -15,7 +15,7 @@
 {
     margin-bottom: 0px;
     padding-bottom: 0px;
-    font-size: 2vw;
+    font-size: 1.5vw;
     margin-top: 0.7rem;
 }
 
@@ -24,7 +24,7 @@ div.text-wrapper p
     margin-left: 0;
     margin-top: 0.2rem;
     margin-right: 0;
-    font-size: 2vw;
+    font-size: 1.5vw;
     overflow: hidden;
 }
        
@@ -180,6 +180,13 @@ i:hover
 }
 
 
+.plats:hover
+{
+    box-shadow: 0px 0px 10px 7px rgb(191, 191, 191);
+}
+ 
+
+
 .header-txt
 {
     margin-top: 2rem;
@@ -198,7 +205,7 @@ i:hover
 {
     margin-bottom: 0px;
     padding-bottom: 0px;
-    font-size:4.7vw;
+    font-size:3vw;
     margin-top: 0.7rem;
 }
 
@@ -207,7 +214,7 @@ i:hover
     margin-left: 0;
     margin-top: 0.2rem;
     margin-right: 0;
-    font-size: 4vw;
+    font-size: 3vw;
     overflow: hidden;
 }
 
@@ -228,24 +235,57 @@ i:hover
            /******* fade-in-animation *******/
 
 
-.plats-1, .plats-2, .plats-3
+.plats-1 
 {
     transition: all 500ms ease-in-out;
 }
 
-
-.plats-4, .plats-5, .plats-6
+.plats-2
 {
-    transition: all 500ms ease-in-out;
-    transition-delay: 900ms;
+    transition: all 700ms ease-in-out;
 }
 
 
-.plats-7, .plats-8, .plats-9
+.plats-3
 {
-    transition: all 500ms ease-in-out;
-    transition-delay: 1200ms;
+    transition: all 1000ms ease-in-out;
 }
+
+
+.plats-4
+{
+    transition: all 1300ms ease-in-out;
+
+}
+
+.plats-5
+{
+    transition: all 1600ms ease-in-out;
+}
+
+
+.plats-6
+{
+    transition: all 2000ms ease-in-out;
+}
+
+
+.plats-7
+{
+    transition: all 2300ms ease-in-out;
+}
+
+.plats-8
+{
+    transition: all 2600ms ease-in-out;
+}
+
+
+.plats-9
+{
+    transition: all 3000ms ease-in-out;
+}
+
 
 
      /******* push-left-on-hover-animation *******/

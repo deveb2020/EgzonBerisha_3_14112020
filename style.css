@@ -3,6 +3,8 @@
 /******************** MEDIAQUERY *******************/
 /******************** MEDIAQUERY *******************/
 
+/******* tablet + desktop *********/
+
 @media screen and (min-width: 768px)
 {
     
@@ -14,11 +16,16 @@
         justify-content: center;
         width: 100%;
     }
+    
+    .resto:hover
+    {
+        box-shadow: 0px 0px 10px 7px rgb(191, 191, 191);
+    }
  
     .resto-box .resto
     {
-        width: 40vw;
-        margin: 1rem;
+        width: 27vw;
+        margin: 2rem;
     }
 
     .nouveau-box p
@@ -29,10 +36,23 @@
     .header-txt h2
     {
         display: none;
-    }    
+    }   
+    
+        div.fonction
+    {
+        width: 30%;
+    }
+    
+    div.fonction .number
+    {
+        left: 34%;
+    }
+    
+    .fonctionnement-box h2
+    {
+        text-align: center;
+    }
 }
-
-
 
 
 /******************** GLOBAL *******************/
