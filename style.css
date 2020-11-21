@@ -1,58 +1,4 @@
 
-/******************** MEDIAQUERY *******************/
-/******************** MEDIAQUERY *******************/
-/******************** MEDIAQUERY *******************/
-
-/******* tablet + desktop *********/
-
-@media screen and (min-width: 768px)
-{
-    
-    .resto-box
-    {
-        display: flex;
-        margin: 0 auto;
-        padding: 0;
-        justify-content: center;
-        width: 100%;
-    }
-    
-    .resto:hover
-    {
-        box-shadow: 0px 0px 10px 7px rgb(191, 191, 191);
-    }
- 
-    .resto-box .resto
-    {
-        width: 27vw;
-        margin: 2rem;
-    }
-
-    .nouveau-box p
-    {
-        margin: 0 1rem;
-    }
-    
-    .header-txt h2
-    {
-        display: none;
-    }   
-    
-        div.fonction
-    {
-        width: 30%;
-    }
-    
-    div.fonction .number
-    {
-        left: 34%;
-    }
-    
-    .fonctionnement-box h2
-    {
-        text-align: center;
-    }
-}
 
 
 /******************** GLOBAL *******************/
@@ -459,6 +405,60 @@ a
 
 
 
+/******************** MEDIAQUERY *******************/
+/******************** MEDIAQUERY *******************/
+/******************** MEDIAQUERY *******************/
+
+/******* tablet + desktop *********/
+
+@media screen and (min-width: 768px)
+{
+    
+    .resto-box
+    {
+        display: flex;
+        margin: 0 auto;
+        padding: 0;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .resto:hover
+    {
+        box-shadow: 0px 0px 10px 7px rgb(191, 191, 191);
+    }
+ 
+    .resto-box .resto
+    {
+        width: 27vw;
+        margin: 2rem;
+    }
+
+    .nouveau-box p
+    {
+        margin: 0 1rem;
+    }
+    
+    .header-txt h2
+    {
+        display: none;
+    }   
+    
+        div.fonction
+    {
+        width: 30%;
+    }
+    
+    div.fonction .number
+    {
+        left: 34%;
+    }
+    
+    .fonctionnement-box h2
+    {
+        text-align: center;
+    }
+}
 
 
 
