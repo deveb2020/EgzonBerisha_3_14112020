@@ -431,6 +431,10 @@ i:hover
     margin: 0.5rem 1rem;
 }
 
+.footer a
+{
+    color: white;
+}
 
 /******************** MEDIAQUERY *******************/
 /******************** MEDIAQUERY *******************/
