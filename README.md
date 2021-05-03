@@ -1,4 +1,4 @@
-# ohmyfood
+# ohmyfood - P3
 ## _This is an online meal reservation platform, UI-only_
 
 ## Tech
